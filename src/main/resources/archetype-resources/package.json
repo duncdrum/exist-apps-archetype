@@ -1,0 +1,19 @@
+{
+  "name": "${artifactId}",
+  "version": "${version}",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": ["eXist", "exist-db", "XQuery", "EXPath"],
+  "author": "",
+  "license": "LPGL2.1",
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9"
+  },
+  "dependencies": {}
+}
