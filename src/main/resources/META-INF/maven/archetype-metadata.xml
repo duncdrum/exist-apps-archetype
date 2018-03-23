@@ -23,11 +23,19 @@
         <include>xar-assembly.xml</include>
         <include>xquery-license-style.xml</include>
         <include>package.json</include>
+        <include>webpack.config.js</include>
       </includes>
     </fileSet>
 
     <fileSet filtered="false" packaged="false" encoding="UTF-8">
       <directory>src/main/xar-resources</directory>
+      <includes>
+        <include>**/*</include>
+      </includes>
+    </fileSet>
+
+    <fileSet filtered="false" packaged="false" encoding="UTF-8">
+      <directory>src/main/frontend</directory>
       <includes>
         <include>**/*</include>
       </includes>

@@ -90,7 +90,7 @@
             <exclude>LICENSE</exclude>
             <exclude>src/main/resources/archetype-resources/**</exclude>
             <exclude>.idea/</exclude>
-            <exclude>*.iml</exclude>            
+            <exclude>*.iml</exclude>
           </excludes>
         </configuration>
       </plugin>
