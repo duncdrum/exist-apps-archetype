@@ -170,7 +170,7 @@
 
             <configuration>
               <nodeVersion>v9.9.0</nodeVersion>
-              <workingDirectory>src/main/xar-resources</workingDirectory>
+              <!-- <workingDirectory>src/main/xar-resources</workingDirectory> -->
             </configuration>
           </execution>
 
